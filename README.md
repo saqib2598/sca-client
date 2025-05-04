@@ -38,8 +38,8 @@ This is a multi-step, bilingual (English + Arabic) form wizard built for a gover
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/saqib2598/social-support-app.git
-cd social-support-app
+git clone https://github.com/saqib2598/sca-client.git
+cd sca-client
 ```
 
 ### 2. Install Dependencies
@@ -67,12 +67,6 @@ npm run dev
 ```
 
 Then open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## 🧪 Testing
-
-Basic testing is set up using React Testing Library and Jest (if added). You can add form validations and UI tests for critical flows.
 
 ---
 
