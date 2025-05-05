@@ -9,7 +9,7 @@ export default function Step3Form() {
   const {
     register,
     setValue,
-    formState: { errors, touchedFields },
+    formState: { errors, touchedFields }
   } = useFormContext();
 
   const { t, i18n } = useTranslation();
