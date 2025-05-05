@@ -7,6 +7,7 @@ export default function Step1Form() {
   const {
     register,
     formState: { errors },
+    getValues
   } = useFormContext();
 
   return (
@@ -37,7 +38,7 @@ export default function Step1Form() {
       <TextField
         select
         label={t("form.fields.gender")}
-        defaultValue=""
+        defaultValue={getValues("gender") || ""}
         {...register("gender", { required: t("form.fields.genderRequired") })}
         error={!!errors.gender}
         helperText={errors.gender?.message as string}
